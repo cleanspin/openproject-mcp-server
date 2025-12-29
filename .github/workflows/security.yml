@@ -47,7 +47,7 @@ jobs:
         run: uv sync --frozen --all-extras
 
       - name: Generate SBOM
-        run: uv run cyclonedx-py --format json --output sbom.json
+        run: uv run cyclonedx-py environment --output sbom.json --format json
 
       - name: Upload SBOM
         uses: actions/upload-artifact@v4
