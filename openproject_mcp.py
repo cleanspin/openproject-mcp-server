@@ -35,7 +35,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Version information
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __author__ = "Your Name"
 __license__ = "MIT"
 
