@@ -14,7 +14,7 @@ def test_version():
 
     assert hasattr(openproject_mcp, "__version__")
     assert openproject_mcp.__version__ is not None
-    assert openproject_mcp.__version__ == "1.0.1"
+    assert openproject_mcp.__version__ == "1.0.2"
 
 
 def test_cli_entry():
